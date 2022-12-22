@@ -3,7 +3,7 @@
 #include <iomanip>
 #include <vector>
 #include <algorithm>
-#include "Atom.h"
+#include "atom.h"
 
 using namespace std;
 
