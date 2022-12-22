@@ -1,6 +1,6 @@
 #include <iostream>
-#include "Atom.h"
-#include "Molecul.h"
+#include "atom.h"
+#include "molecul.h"
 
 using namespace std;
 
