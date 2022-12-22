@@ -4,7 +4,7 @@
 
 using namespace std;
 
-enum type {
+enum Atom_Type {
     ISOTYPE,
     RADIOACTIVE,
     ION,
@@ -21,7 +21,7 @@ public:
     int protons;
     int electrons;
     string type;
-    Atom(string name, long double atomic_mass, int neutrons, int protons, int electrons, enum type type)
+    Atom(string name, long double atomic_mass, int neutrons, int protons, int electrons, enum Atom_Type type)
     {
         this->name = name;
         this->atomic_mass = atomic_mass;
@@ -32,7 +32,7 @@ public:
         cout << "neutrons   " << this->neutrons << endl;
         cout << "protons   " << this->protons << endl;
         cout << "electrons   " << this->electrons << endl;
-        cout << "type   " << eType[type] << endl;
+        cout << "type   " << eType[Atom_Type] << endl;
         isNeutral();
     }
     void isNeutral() {
