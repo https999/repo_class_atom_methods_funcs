@@ -5,7 +5,10 @@
 using namespace std;
 
 int main() {
-  Atom A("A", 0.1, 3, 2, 4, ION), B("B", 0.02, 4, 2, 4, STABLE), C("C", 0.034, 2, 1, 2, ISOTYPE), D("D", 0.026, 2, 1, 5, RADIOACTIVE);
+  Atom A("A", 0.1, 3, 2, 4, ION);
+  Atom B("B", 0.02, 4, 2, 4, STABLE);
+  Atom C("C", 0.034, 2, 1, 2, ISOTYPE);
+  Atom D("D", 0.026, 2, 1, 5, RADIOACTIVE);
   Molecul one("one"), two("two");
   one.Add_atom(A);
   one.Add_atom(B);
